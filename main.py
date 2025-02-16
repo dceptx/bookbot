@@ -33,6 +33,7 @@ def get_chars_dict(text):
             char_count_dict[char] += 1
     return char_count_dict
 
+
 def sort_dict_g_to_l(dictionary):
     sort_chars_dict = {}
     for key, value in dictionary.items():
